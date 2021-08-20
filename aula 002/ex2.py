@@ -5,4 +5,4 @@ num4 = int(input("digite o quarto número: "))
 
 soma =num1 + num2 + num3 + num4
 
-print("O resultado da soma é", soma)
+print("O resultado da soma é", soma)    
