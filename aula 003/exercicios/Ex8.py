@@ -5,7 +5,7 @@ if idade > 66:
     print("a pessoa pode se aposentar")
 
 elif tempoServico >31:
-    print("a pessoa pode se aposentar")
+    print("a pessoa pode se aposentar") 
 
 elif idade > 61 and tempoServico > 26:
     print("a pessoa pode se aposentar")
