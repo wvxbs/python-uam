@@ -4,11 +4,15 @@ def ReceiveUserInput(Message):
     return Input
 
 def VerifyIfNumberIsValid(Number):
-    if(Number % 2 == 0):
+    if(Operation(Number) == 0):
         return False
     else:
         return True
 
+def Operation(Number):
+    Result = Number % 2
+
+    return Result
 
 def main():
     Counter = 0
@@ -21,6 +25,6 @@ def main():
 
         Counter = 1 + Counter
 
-    print(f"A soma dos numeros pares é: {Acc}")    
+    print(f"A soma dos numeros impares é: {Acc}")    
 
 main()
